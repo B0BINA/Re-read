@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+.row:after {
+    content: "";
+    display: flex;
+    clear: both;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0%;
+}
+
+.cabecera {
+    background-color: rgba(11,83,69,255);
+}
+
+.cabeceratexto {
+    color: white;
+}
