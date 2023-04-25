@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Merriweather', serif;
 }
 
 
@@ -20,4 +23,75 @@
 
 .cabeceratexto {
     color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bolder;
+}
+
+.titulo {
+    text-align: center;
+    padding-top: 7%;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.subtitulo {
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 20px;
+}
+
+.column70{
+    padding-top: 5%;
+    width: 70%;
+    float: left;
+}
+
+.botones {
+    background-color: rgb(241, 104, 7); 
+    border: none;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.botones2 {
+    background-color: rgb(255, 255, 255); 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 2%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.linea {
+    border: 1px solid rgb(241, 104, 7);
+}
+
+.column30 {
+    padding-top: 6%;
+    padding-left: 2%;
+    width: 30%;
+    float: left;
+}
+
+.ventas {
+    font-size: 12px;
+    padding-bottom: 7%;
+}
+
+.topventas {
+    background-color: rgb(80, 161, 145);
+    padding: 4%;
+    color: white;
+    margin: 4%;
+}
+
+.titulo2{
+
 }
