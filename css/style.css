@@ -47,6 +47,7 @@
     padding-top: 5%;
     width: 70%;
     float: left;
+    flex-direction: row;
 }
 
 .botones {
@@ -105,4 +106,26 @@
     margin: 0%;
     padding-left: 11%;
     padding-right: 11%;
+}
+
+.libro1 {
+    padding: 0%;
+    padding-left: 11%;
+    width: 25%;
+    padding-top: 2%;
+
+}
+
+.libro2 {
+    padding: 0%;
+    width: 25%;
+    padding-top: 2%;
+
+}
+
+.libro3 {
+    padding: 0%;
+    width: 10%;
+    padding-top: 2%;
+
 }
