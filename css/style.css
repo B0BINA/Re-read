@@ -85,8 +85,10 @@
 
 .ventas {
     font-size: 12px;
-    padding-bottom: 7%;
+    padding-bottom: 1%;
     font-weight: 900;
+    padding-top: 3%;
+    padding-left: 4%;
 }
 
 .topventas {
@@ -108,6 +110,7 @@
     margin: 0%;
     padding-left: 11%;
     padding-right: 11%;
+    padding-bottom: 2%;
 }
 
 .libro1 {
@@ -139,14 +142,8 @@ a {
     color: black;
 }
 
-.column-3 {
-    width: 100%;
-    float: left;
-    flex-direction: row;
-}
-
 .king1 {
-    width: 33%;
+    width: 20%;
     float: left;
 }
 
