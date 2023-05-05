@@ -143,25 +143,55 @@ a {
 }
 
 .king1 {
+    width: 30%;
+    float: left;
+    padding-left: 10%;
+}
+
+.king2 {
     width: 20%;
     float: left;
 }
 
-.king2 {
-    width: 33%;
-    float: left;
-}
-
 .king3 {
-    width: 33%;
+    width: 20%;
     float: left;
 }
 
 .king4 {
-    width: 33%;
+    padding-left: 0%;
+    width: 50%;
     float: left;
 }
 .king5 {
     width: 33%;
     float: left;
+}
+
+.imagenes {
+    width: 100%;
+    float: left;
+}
+
+@media screen and (max-width:600px) {
+    .subtitulo {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .column70 {
+        width: 100%;
+    }
+
+    .botones {
+        width: 100%;
+    }
+
+    .botones2 {
+        width: 100%;
+    }
+
+    .column30 {
+        width: 100%;
+    }
 }
